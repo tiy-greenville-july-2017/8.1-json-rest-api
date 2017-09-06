@@ -1,0 +1,24 @@
+{
+  "name": "8.1-json-apis",
+  "version": "1.0.0",
+  "description": "API Demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "dietz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "pg": "^7.3.0",
+    "sequelize": "^4.8.0"
+  },
+  "devDependencies": {
+    "jest": "^21.0.1",
+    "supertest": "^3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
